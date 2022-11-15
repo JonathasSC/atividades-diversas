@@ -1,1 +1,3 @@
-console.log('Hello World')
+var contador = 0;
+
+for (contador<5;contador ++;)
