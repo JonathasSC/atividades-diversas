@@ -1,3 +1,3 @@
-var contador = 0;
-
-for (contador<5;contador ++;)
+for (let cont = 0; cont < 5; cont ++) {
+    
+}
