@@ -1,14 +1,11 @@
-var inputs = []
-var negativos = []
-var lista1 = window.document.getElementById('n1')
-var lista2 = window.document.getElementById('n2')
+function calcular() {
+    var n1 = Number(window.document.getElementById('nota1').value)
+    var n2 = Number(window.document.getElementById('nota2').value)
+    var n3 = Number(window.document.getElementById('nota3').value)
+    
+    var text = window.document.getElementById('resultado')
 
-for (cont = 0; cont < 5; cont ++) {
-    inputs[cont] = window.prompt('Digite um número: ')
-    if (inputs[cont] < 0){
-        negativos[cont] = inputs[cont]
-    }
+    var resultado = ( n1 + n2 + n3 )/ 3
+
+    text.innerHTML = `${resultado}`
 }
-
-lista1.innerHTML = inputs
-lista2.innerHTML = negativos
