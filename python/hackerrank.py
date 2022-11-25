@@ -23,8 +23,7 @@
 
 
 def diagonalDifference(arr):
-
-    # left_diag  =  [ arr [ i ][ i ]  for  i  in  range ( 0 , len ( arr ))] 
+    n = len(arr)    # left_diag  =  [ arr [ i ][ i ]  for  i  in  range ( 0 , len ( arr ))] 
     # right_diag  =  [ arr [ i ][ ~ i ]  for  i  in  range ( 0 , len ( arr ) )] 
     # return  ( sum( left_diag ) - sum( right_diag ))
 
