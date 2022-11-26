@@ -1,7 +1,8 @@
 def sockMerchant(n, ar):
-    quantity = { c: ar.count(c) for c in set(ar) }
+    quantity = { c: ar.count(c) for c in set(ar) }.values()
     pares = 0 
-    for element in quantity.values():
+    
+    for element in quantity:
         if element % 2 == 0:
             pares += element
         else:
