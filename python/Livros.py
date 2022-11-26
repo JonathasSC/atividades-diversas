@@ -1,12 +1,8 @@
 def pageCount(n, p):
-    livro = []
-    for pag in range(n):
-        livro.append(pag)
-    print(livro)
-    return n // p
-    # if p % 2 == 0:
-    #     return abs( n // p ) // p
-    # else:
-    #     return abs(( n // p ) // p - 1 )
+    n = (n + 1) if n % 2 == 0 else n
+    p = (p + 1) if p % 2 == 0 else p
+    x = [int((p - 1)/2), int((n - p)/2)]
+    
+    return min(x)
 
 print(pageCount(6,2))
