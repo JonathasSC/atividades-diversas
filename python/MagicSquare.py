@@ -16,3 +16,5 @@ def formingMagicSquare(s):
     return miniSum
 
 print(formingMagicSquare([[4,8,2],[4,5,7],[6,1,6]]))
+
+# Esse desafio é loucura.
